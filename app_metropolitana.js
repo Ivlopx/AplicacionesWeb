@@ -5,7 +5,7 @@ import dotenv from "dotenv";
 import { test } from "./backend/controllers/alumnos.controller.js";
 
 dotenv.config()
-mongoose.connect(process.env.url_bd_utma)
+mongoose.connect(process.env.url_bd_metropolitana)
 .then(() => console.log("Conectado a la base de datos"))
 .catch(() => console.log("No pudo conectarse a la base de datos"))
 

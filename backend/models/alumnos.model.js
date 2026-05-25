@@ -1,7 +1,7 @@
 import { Schema, model } from "mongoose";
 
 const esquemaAlumnos = new Schema({
-    nombre: String,
+    alumno: String,
     calificacion: Number,
     materia: String
 })
